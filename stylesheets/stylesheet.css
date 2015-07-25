@@ -3,6 +3,11 @@ Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
+@font-face {
+  font-family: multicolor;
+  src: url(Multicolore.otf);
+}
+
 @import url(github-light.css);
 
 /*******************************************************************************
@@ -103,7 +108,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #0FC966;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -279,7 +284,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #0FC966 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -300,6 +305,7 @@ Full-Width Styles
 }
 
 #project_title {
+  font-family: multicolor;
   margin: 0;
   color: #fff;
   font-size: 42px;
@@ -308,6 +314,7 @@ Full-Width Styles
 }
 
 #project_tagline {
+  font-family: multicolor;
   color: #fff;
   font-size: 24px;
   font-weight: 300;
