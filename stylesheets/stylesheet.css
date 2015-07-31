@@ -8,6 +8,11 @@ by Jason Costello, @jsncostello
     src: url(Multicolore.otf);
 }
 
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-Regular.ttf);
+}
+
 @import url(github-light.css);
 
 /*******************************************************************************
@@ -31,6 +36,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font: inherit;
+    font-family: opensans;
     vertical-align: baseline;
 }
 
@@ -319,7 +325,6 @@ Full-Width Styles
 }
 
 #project_title {
-    font-family: multicolor;
     margin: 0;
     color: #fff;
     font-size: 42px;
@@ -329,7 +334,6 @@ Full-Width Styles
 }
 
 #project_tagline {
-    font-family: multicolor;
     color: #fff;
     font-size: 24px;
     font-weight: 300;
@@ -402,6 +406,10 @@ Full-Width Styles
 
 #footer_wrap ul li {
     display: inline;
+}
+#foot ul {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 #footer_wrap img {
