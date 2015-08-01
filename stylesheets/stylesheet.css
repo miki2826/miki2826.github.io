@@ -413,6 +413,8 @@ Full-Width Styles
 }
 
 #footer_wrap img {
+    height: 48px;
+    width: 48px;
     border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
