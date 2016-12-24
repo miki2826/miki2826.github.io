@@ -17,10 +17,10 @@
 <div id="header_wrap" class="outer">
     <header class="inner">
         <a id="forkme_banner" href="https://github.com/miki2826">View on GitHub</a>
+        <img src="./images/logo.jpg" class="logo_image">
+        <h1 id="project_title">MICHAEL DIMENSHTEIN</h1>
 
-        <h1 id="project_title">Michael Dimenshtein</h1>
-
-        <h2 id="project_tagline">Developer / WebJedi</h2><!--/ Technologist / Gadgeteer -->
+        <h2 id="project_tagline">Developer / WebJedi</h2>
 
     </header>
 </div>
@@ -35,8 +35,8 @@
                 href="https://github.com/miki2826" class="user-mention">@miki2826</a>) GitHub Pages.</h3>
 
         <p>I am a software engineer, well versed in the arts of JavaScript and Java.<br>
-            Currently CTO of <a href="https://github.com/Askrround" class="user-mention">@Askrround</a>.<br>
-            Previously, a Tech Lead for <a href="https://github.com/LivePersonInc" class="user-mention">@LivePersonInc</a></p>
+            Currently CTO <a href="https://github.com/Askrround" class="user-mention">@Askrround</a>.<br>
+            Previously, a Tech Lead <a href="https://github.com/LivePersonInc" class="user-mention">@LivePersonInc</a></p>
 
         <h3>
             <a id="slides" class="anchor" href="#slides" aria-hidden="true"><span
@@ -159,21 +159,21 @@
     } catch (err) {
     }
 
-    function init() {
-        window.addEventListener('scroll', function (e) {
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 100,
-                    header = document.querySelector("#header_wrap");
-            if (distanceY > shrinkOn) {
-                classie.add(header, "smaller");
-            } else {
-                if (classie.has(header, "smaller")) {
-                    classie.remove(header, "smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
+//    function init() {
+//        window.addEventListener('scroll', function (e) {
+//            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+//                    shrinkOn = 100,
+//                    header = document.querySelector("#header_wrap");
+//            if (distanceY > shrinkOn) {
+//                classie.add(header, "smaller");
+//            } else {
+//                if (classie.has(header, "smaller")) {
+//                    classie.remove(header, "smaller");
+//                }
+//            }
+//        });
+//    }
+//    window.onload = init();
 </script>
 
 

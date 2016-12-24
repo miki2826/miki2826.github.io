@@ -307,7 +307,7 @@ Full-Width Styles
     background: -ms-linear-gradient(top, #373737, #212121);
     background: -o-linear-gradient(top, #373737, #212121);
     background: linear-gradient(top, #373737, #212121);
-    height: 200px;
+    height: 150px;
     transition: height 0.3s;
 }
 
@@ -327,7 +327,7 @@ Full-Width Styles
 #project_title {
     margin: 0;
     color: #fff;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 700;
     text-shadow: #111 0px 0px 10px;
     transition: all 0.3s;
@@ -335,7 +335,7 @@ Full-Width Styles
 
 #project_tagline {
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     background: none;
     text-shadow: #111 0px 0px 10px;
@@ -368,6 +368,16 @@ Full-Width Styles
     text-indent: -5000px;
     overflow: hidden;
     background: url(../images/sprite_download.png) no-repeat bottom left;
+}
+
+.logo_image {
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 100%;
+    border: none;
+    margin-right: 10px;
+    padding: 0;
 }
 
 .tar_download_link {
